@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ad20798cc83e44c47a1c9abf3e3201b8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 59330ffb60b7ca244877c26fd00e2079, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/skyros_marble.sbsar

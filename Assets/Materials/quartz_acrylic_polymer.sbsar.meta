@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0233e41e072cacf41933112e0734e3d1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 9d1355c4913619f49bbb405d28f0ebae, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/quartz_acrylic_polymer.sbsar

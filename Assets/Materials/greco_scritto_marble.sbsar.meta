@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc18abeae3723f749943084cfdbcc0c4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: d2a33770d9461164c9ea0a078638966a, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/greco_scritto_marble.sbsar

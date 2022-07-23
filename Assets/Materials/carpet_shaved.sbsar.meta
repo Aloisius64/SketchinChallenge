@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b622d83e4be1c8f46a842ca2e5e80229
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: f1e3da036c5962f4f89b2c1d486c102d, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/carpet_shaved.sbsar
