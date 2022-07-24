@@ -273,6 +273,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1997995261}
     - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
       propertyPath: SceneToLoad
       value: Scenes/Short Films/Fresh Waters
       objectReference: {fileID: 0}
@@ -377,7 +381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &265466154
 Transform:
   m_ObjectHideFlags: 0
@@ -504,6 +508,10 @@ PrefabInstance:
       propertyPath: UiText
       value: 
       objectReference: {fileID: 1997995261}
+    - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
       propertyPath: SceneToLoad
       value: Scenes/Short Films/High Seas
@@ -729,6 +737,10 @@ PrefabInstance:
       propertyPath: UiText
       value: 
       objectReference: {fileID: 1997995261}
+    - target: {fileID: 729296531319001540, guid: f12dcce43bbc9e140ba3389feadd76d3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 729296531319001540, guid: f12dcce43bbc9e140ba3389feadd76d3, type: 3}
       propertyPath: SceneToLoad
       value: Scenes/Short Films/Jungles
@@ -1648,6 +1660,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.98
       objectReference: {fileID: 0}
+    - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
 --- !u!4 &956389686 stripped
@@ -2479,6 +2495,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1997995261}
     - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
       propertyPath: SceneToLoad
       value: Scenes/Short Films/From Desert to Grasslands
       objectReference: {fileID: 0}
@@ -3202,6 +3222,10 @@ PrefabInstance:
       propertyPath: UiText
       value: 
       objectReference: {fileID: 1997995261}
+    - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
       propertyPath: SceneToLoad
       value: Scenes/Short Films/Frozen Worlds
@@ -4107,6 +4131,10 @@ PrefabInstance:
       propertyPath: UiText
       value: 
       objectReference: {fileID: 1997995261}
+    - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8633119867257239647, guid: 8bcd103d763d2614c81e8d019de15df2, type: 3}
       propertyPath: SceneToLoad
       value: Scenes/Short Films/Coastal Seas
