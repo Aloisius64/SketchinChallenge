@@ -26,7 +26,7 @@ public class ExperienceStarter : MonoBehaviour
     {
         if (_enableTransition)
         {
-            if (Input.GetKeyUp(KeyCode.E))
+            if (Input.GetKeyUp(KeyCode.E) && !string.IsNullOrEmpty(SceneToLoad))
             {
                 // TODO FadeIn/FadeOut screen effet
                 // ...
