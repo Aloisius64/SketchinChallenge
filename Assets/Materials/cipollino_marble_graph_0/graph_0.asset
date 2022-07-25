@@ -227,7 +227,11 @@ MonoBehaviour:
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://cipollino_marble\" label=\"\" >\n 
     <presetinput identifier=\"$outputsize\" uid=\"450962803\" type=\"8\" value=\"11,11\"
-    />\n </sbspreset>\n"
+    />\n  <presetinput identifier=\"$randomseed\" uid=\"1301492513\" type=\"4\" value=\"8820\"
+    />\n  <presetinput identifier=\"roughness\" uid=\"1926428836\" type=\"0\" value=\"0.667\"
+    />\n  <presetinput identifier=\"cracks_density\" uid=\"1945451113\" type=\"0\"
+    value=\"0.919\" />\n  <presetinput identifier=\"impact_intensity\" uid=\"1945449585\"
+    type=\"0\" value=\"0.592\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -272,7 +276,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 0
-        Data: 0
+        Data: 8820
         NumericalDescription:
           DefaultValue: 0
           MinValue: 0
@@ -316,7 +320,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.1
+        Data: 0.667
         NumericalDescription:
           DefaultValue: 0.1
           MinValue: 0
@@ -463,7 +467,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.98
+        Data: 0.919
         NumericalDescription:
           DefaultValue: 0.98
           MinValue: 0
@@ -484,7 +488,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.67
+        Data: 0.592
         NumericalDescription:
           DefaultValue: 0.67
           MinValue: 0
