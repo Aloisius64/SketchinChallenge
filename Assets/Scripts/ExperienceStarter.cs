@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,9 +33,30 @@ public class ExperienceStarter : MonoBehaviour
                 // ...
 
                 // Load the new scene
-                SceneManager.LoadScene(SceneToLoad, LoadSceneMode.Single);
+                //SceneManager.LoadScene(SceneToLoad, LoadSceneMode.Single);
+                StartCoroutine(FadeOutEffect(() => {
+                    SceneManager.LoadScene(SceneToLoad, LoadSceneMode.Single);
+                }));
             }
         }
+    }
+
+    public IEnumerator FadeOutEffect(Action loadSceneCallback)
+    {
+        var fadeEffect = GameObject.Find("FadeEffect");
+
+        if (fadeEffect != null)
+        {
+            var image = fadeEffect.GetComponent<UnityEngine.UI.Image>();
+            var animator = fadeEffect.GetComponent<Animator>();
+
+            animator.SetBool("Fade", true);
+
+            yield return new WaitUntil(() => image.color.a == 1);
+        }
+
+        // Invoke callback.
+        loadSceneCallback();
     }
 
     private void OnTriggerEnter(Collider other)
